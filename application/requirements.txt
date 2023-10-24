@@ -1,3 +1,4 @@
-flask==1.1.1
-flask_restplus
-Werkzeug==0.16.1
+dicttoxml==1.7.16
+Flask==2.3.2
+flask_restx==1.1.0
+Requests==2.31.0
