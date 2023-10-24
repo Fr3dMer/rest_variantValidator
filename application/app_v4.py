@@ -51,7 +51,7 @@ class NameClass(Resource):
             "My name is" : name
         }
 
-vv_space = api.namespace('VariantValidator', description='VariantValidator APIs')
+vv_space = api.namespace('VariantValidator', description='VariantValidator APIs')   
 @vv_space.route("/variantvalidator/<string:genome_build>/<string:variant_description>/<string:select_transcripts>")
 class VariantValidatorClass(Resource):
     def get(self, genome_build, variant_description, select_transcripts):
